@@ -1,7 +1,27 @@
 # Predicting peptide binding
 
-Based on <a href="www.google.com">Pepsite2</a>, 
-predicts binding strength of a 
+<p>This package uses an API from <a href="http://pepsite2.russelllab.org/">PepSite2</a>, 
+which "can predict binding of a given peptide onto a protein structure".</p>
+
+<p>
+The API provided by PepSite is limited to only one peptide sequence.
+This package allows the researcher to give a full protein sequence,
+split it into a list of peptide sequences, returning the predictions
+for each sequence.
+</p>
+
+<p>
+The researcher also has the ability to choose the peptide sequence size,
+as well as the number of binding scores returned per prediction.
+</p>
+
+<p>
+This package gives added functionality to the base PepSite, but to use
+results, please site the original paper:<br>
+<em>PepSite: prediction of peptide-binding sites from protein surfaces.<br>
+Trabuco LG, Lise S, Petsalaki E, and Russell RB.<br>
+Nucleic Acids Res. 2012; 40(Web Server issue):W423-426.</em>
+</p>
 
 run predict_peptide_binding, passing the following arguments:
 ```
