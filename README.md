@@ -23,6 +23,8 @@ Trabuco LG, Lise S, Petsalaki E, and Russell RB.<br>
 Nucleic Acids Res. 2012; 40(Web Server issue):W423-426.</em>
 </p>
 
+### Usage
+
 run predict_peptide_binding, passing the following arguments:
 ```
 - peptide_src_type: if the peptide is a file or a string.
@@ -41,7 +43,7 @@ Currently, the sliding window only works when providing
 the peptide sequence in file format, and the sequence 
 length must be greater than the window_length provided.
 
-## Examples
+### Examples
 Running with a peptide string:
 ```
 python3 -m predict_peptide_binding -s GPAGPPGA 1eak D 10 3
