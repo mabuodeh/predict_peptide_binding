@@ -17,7 +17,7 @@ as well as the number of binding scores returned per prediction.
 
 <p>
 This package gives added functionality to the base PepSite, but to use
-results, <b>please site the original paper</b>:<br>
+results, <b>please cite the original paper</b>:<br>
 <em>PepSite: prediction of peptide-binding sites from protein surfaces.<br>
 Trabuco LG, Lise S, Petsalaki E, and Russell RB.<br>
 Nucleic Acids Res. 2012; 40(Web Server issue):W423-426.</em>
